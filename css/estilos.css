@@ -193,7 +193,9 @@ body {
 }
 
 .knowledge__picture{
-    max-width: 500px;
+    max-width: 1500px;
+    border: 1px solid black; /* Agrega un borde de 1px de ancho y color negro */
+    display: inline-block; /* Asegura que el borde se ajuste al tamaño del elemento */
 }
 
 .knowledge__paragraph{
@@ -202,7 +204,7 @@ body {
 }
 
 .knowledge__img{
-    width: 70%;
+    width: 100%;
     display: block;
 }
 
